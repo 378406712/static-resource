@@ -30,7 +30,7 @@
 		//height = window.innerHeight;
 
         //如果需要铺满内容可以换下面这个
-        var panel = document.getElementById('headertop');
+        var panel = document.getElementsByClassName('headertop')[0];
 		width=panel.offsetWidth;
 		height=panel.offsetHeight;
 
